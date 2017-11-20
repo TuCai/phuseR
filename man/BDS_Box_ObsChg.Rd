@@ -64,4 +64,3 @@ PhUSE Figure 7.3 Box plot - Measurements and Change from Baseline by Analysis Ti
 \description{
 Combine outputs from BDS_Box_Obs and BDS_Box_Chg into a single page
 }
-

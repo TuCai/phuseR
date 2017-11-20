@@ -1,9 +1,9 @@
-library(ggplot2)
-library(data.table)
-library(gridExtra)
-library(Hmisc)
-library(tools)
-library(devtools)
+# library(ggplot2)
+# library(data.table)
+# library(gridExtra)
+# library(Hmisc)
+# library(tools)
+# library(devtools)
 
 
 #' BDS_Box_ObsChg
@@ -36,11 +36,6 @@ library(devtools)
 #' @param charttitle Title for the chart
 #' @return PhUSE Figure 7.3 Box plot - Measurements and Change from Baseline by Analysis Timepoint, Visit and Treatment
 #'
-#' @import Hmisc
-#' @import ggplot2
-#' @import tools
-#' @import gridExtra
-#' @import data.table
 BDS_Box_ObsChg<-function(bdsdset, treatmentname, useshortnames = c(TRUE,FALSE), oldnames, newnames,usepopflag = c(TRUE,FALSE), popflag, testname, yaxislabel, selectedvisits, perpage, dignum, redoutliers = c(TRUE, FALSE), horizontallines = c(TRUE,FALSE), enterlimits= c(TRUE,FALSE), ANRLO, ANRHI, outputdirectory, filetype = c("PNG","TIFF","JPEG"),  pixelwidth, pixelheight, outputfontsize, charttitle){
 
 

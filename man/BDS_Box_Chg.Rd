@@ -55,8 +55,3 @@ Figure 7.2 Box plot - Change from Baseline by Analysis Timepoint, Visit and Trea
 \description{
 Create a boxplot for PhUSE
 }
-\examples{
-BDS_Box_Chg(treatmentname = "TRTA", useshortnames = TRUE, oldnames = c("Xanomeline Low Dose","Xanomeline High Dose"), newnames = c("X-low", "X-High"), usepopflag = TRUE, popflag = "SAFFL", testname = "DIABP", yaxislabel = "Change in Diastolic Blood Pressure (mmHG)",selectedvisits = c(0,2,4,6,8,12,16,20,24), perpage = 6, dignum = 1, inputdirectory = "R:/StatOpB/CSV/9_GB_PhUSE/phuse-scripts/data/adam/cdisc",outdirectory = "U:/github", testfilename = "advs.xpt",filetype = "PNG", pixelwidth = 1200, pixelheight = 1000, outputfontsize = 16, charttitle = "Box")
-
-}
-
